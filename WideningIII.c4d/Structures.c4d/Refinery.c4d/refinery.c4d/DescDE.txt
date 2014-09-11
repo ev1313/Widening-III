@@ -1,0 +1,16 @@
+Hier kann aus Ölfässern und Brennmaterial Rohbenzin, Diesel und Grundöl zur Herstellung weiterer Benzine und Schmierstoffe gewonnen werden.
+
+Einsatz:
+-Ölfässer
+-Brennmaterial 
+(2 Holz/1 Kohle)
+
+Produkte:
+-Benzin (1)
+-Benzinkomponenten (2)
+-Grundöl (1)
+-Ölkomponenten (3)
+-Rückstand (1)
+-Abwasser (2)
+-Ammoniak (1)
+

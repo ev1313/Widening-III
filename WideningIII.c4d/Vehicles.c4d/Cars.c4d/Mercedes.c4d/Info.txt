@@ -1,0 +1,27 @@
+              ***BITTE ÖFFNEN***
+------------------------------------------------------------
+       WICHTIGE INFORMATIONEN
+ 
+Es handelt sich bei diesem paket um ein Offizielles ADDon für die 
+Erweiterung Wirtschaft ausschließlich Version 1.25.2
+
+Es  wurde in seinen grundfunktionen von Florian Schneider erstellt, 
+die MS C-E hat es lediglich soweit hin angepasst, dass es mit der Erweiterung
+reibungslos fubnktiert.
+
+Somit obliegen sämtliche techn. Anfragen und sonst. Gesuche grundsätztlich
+vorrangig der MS C-E, des weiteren dem ursprünglichen Autor Florian Schneider.
+
+Wir behalten uns jederzeit vor, weitere techn. Änderungen durchzuführen. 
+
+2006 MS Clonk-Entwicklung
+
+
+
+
+
+
+
+
+
+

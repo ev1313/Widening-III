@@ -1,0 +1,2 @@
+DE:Normalbenzin
+US:gasoline

@@ -1,0 +1,26 @@
+       ***BITTE ÖFFNEN***
+-----------------------------------
+  WICHTIGE INFORMATIONEN
+ 
+Die Erweiterung Wirtschaft II Szenarien sind Original MS C-E Objekte 
+und kompatibel mit der jeweils aktuellsten Version der Erweiterung Wirtschaft II.
+
+Jede offizielle Engine ab CR 4.98.2 wird unterstützt. 
+Die Nutzung mit einer unzulässigen Engine erfolgt auf eigene Gefahr.
+
+Falls MS C-E Objekte für eigene Pakete verwendet werden sollen, ist das kein Problem.
+Aber wenn MS C-E Objekte in fremden Paketen veröffentlicht werden sollen, 
+ist vorher eine schriftliche Genehmigung (E-Mail) einzuholen.
+
+Bei diesem Paket handelt es sich um Freeware, es darf somit nicht kommerziell
+genutzt werden. Jeglicher Verkauf oder die Vermietung können straf-zivilrechtlich verfolgt werden.
+Das Paket darf nur unentgeltlich weitergegeben oder kopiert werden.
+
+Nebenstehend distanzieren wir uns von Inhalten von Homepages, Objekten, und sonstigen Dokumenten Dritter, 
+die im Paket genannt werden.
+
+
+
+
+
+

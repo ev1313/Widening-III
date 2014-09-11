@@ -1,0 +1,5 @@
+Das ist der neue Actros als Fahrgestell mit Führerhaus. Er ist die Grundlage für alle anderen Lastwagen, die dieses Fahrgestell benutzen. Mercedes liefert das Grundgerüst, der Aufbau kann frei gewählt werden. Oder in Entwicklersprache:
+Ihr müsst diesen "Roh-LKW" bauen, dann dient er als "Ausgangsprodukt" für andere LKW´s dieser Baureihe. So kann auf seiner Basis z.B. Ein Containerfahrzeug entstehen.
+
+Ich bin ja nicht geizig:
+Ein V6 mit 400 PS ist auch mit dabei.

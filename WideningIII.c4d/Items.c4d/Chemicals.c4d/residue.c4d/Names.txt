@@ -1,0 +1,2 @@
+DE:Rückstand
+US:Residue

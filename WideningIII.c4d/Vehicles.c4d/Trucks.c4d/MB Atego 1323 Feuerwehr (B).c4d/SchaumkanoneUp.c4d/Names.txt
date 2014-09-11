@@ -1,0 +1,2 @@
+DE:Löschkanone
+US:Extinguisher Cannon

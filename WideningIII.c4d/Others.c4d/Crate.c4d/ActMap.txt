@@ -1,0 +1,17 @@
+[Action]
+Name=Walk
+Procedure=NONE
+Directions=1
+Delay=60
+Facet=0,0,25,25
+NextAction=Walk
+
+[Action]
+Name=Fly
+Procedure=FLOAT
+Directions=1
+Length=1
+Delay=1
+Facet=0,0,25,25
+NextAction=Fly
+StartCall=SlowDown

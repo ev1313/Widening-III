@@ -1,0 +1,29 @@
+# Rangsystem für Bergarbeiterclonk
+# Base=1000
+
+# Rangnamen
+Amateur
+Neuling
+Praktikant
+Hilfsarbeiter
+Lehrling
+Leiharbeiter
+Zeitarbeiter
+Pumpemschlosser
+Feuerwehrmann
+Chemiefacharbeiter
+Vorarbeitervertreter
+Vorarbeiter
+Meistervertreter
+Meister
+Projektleiter
+Planer
+Chemieingeneur
+Brandmeister
+Oberbrandmeister
+Bereichsleiter
+Abteilungsleiter
+Betriebsleiter
+Vorstandsmitglied
+Vorstandsvorsitzender
+Firmeninhaber

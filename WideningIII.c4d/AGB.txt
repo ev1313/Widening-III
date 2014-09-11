@@ -1,0 +1,28 @@
+       ***BITTE ÖFFNEN***
+-----------------------------------
+  WICHTIGE INFORMATIONEN
+ 
+Die Erweiterung Wirtschaft II ist ein zusammengestelltes Paket mit Objekten der
+regulären und weiterhin verfügbaren Erweiterung Wirtschaft I, neuen Objekten, 
+und einigen Objekten anderer Entwickler, 
+die selbstverständlich deutlich gekennzeichnet wurden.
+
+Jede offizielle Engine ab CR 4.97.1 wird unterstützt. 
+Die Nutzung mit einer veränderten Engine erfolgt auf eigene Gefahr.
+
+Falls MS C-E Objekte für eigene Pakete verwendet werden sollen, ist das kein Problem.
+Aber wenn MS C-E Objekte in fremden Paketen veröffentlicht werden sollen, 
+ist vorher eine schriftliche Genehmigung (E-Mail) einzuholen.
+
+Bei diesem Paket handelt es sich um Freeware, es darf somit nicht kommerziell
+genutzt werden. Jeglicher Verkauf oder die Vermietung können straf-zivilrechtlich verfolgt werden.
+Das Paket darf nur unentgeltlich weitergegeben oder kopiert werden.
+
+Nebenstehend distanzieren wir uns von Inhalten von Homepages, Objekten, und sonstigen Dokumenten Dritter, 
+die im Paket genannt werden.
+
+
+
+
+
+

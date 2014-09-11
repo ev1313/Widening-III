@@ -1,0 +1,1 @@
+Ein Zeitzünder, dessen Zündzeit eingestellt werden kann.

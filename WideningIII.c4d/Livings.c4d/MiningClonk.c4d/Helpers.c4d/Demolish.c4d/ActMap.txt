@@ -1,0 +1,7 @@
+[Action]
+Name=Active
+Delay=90
+Facet=0,6,6,6
+Sound=Fusing
+EndCall=Boom
+NextAction=None

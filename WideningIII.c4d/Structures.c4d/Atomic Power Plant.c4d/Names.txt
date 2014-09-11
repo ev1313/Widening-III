@@ -1,0 +1,2 @@
+DE:Kernkraftwerk
+US:Atomic power plant

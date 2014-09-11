@@ -1,0 +1,12 @@
+[DefCore]
+id=LUMP
+Name=Lump
+Category=4
+Width=4
+Height=4
+Offset=-3,-3
+Mass=1
+Picture=0,0,4,4
+Vertices=1
+VertexFriction=100
+Rotate=1

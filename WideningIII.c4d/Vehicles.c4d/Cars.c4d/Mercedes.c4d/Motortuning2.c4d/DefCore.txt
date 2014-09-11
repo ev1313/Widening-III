@@ -1,0 +1,19 @@
+[DefCore]
+id=MTP2
+Version=4,6,0
+Name=Motortuningpack Stufe 2
+Category=3600
+MaxUserSelect=15
+Width=9
+Height=13
+Offset=-5,-7
+Value=100
+Mass=100
+Components=ALU1=5;METL=5;
+Picture=9,0,40,45
+Vertices=1
+VertexY=6
+VertexFriction=100
+Rebuy=1
+Collectible=1
+TimerCall=Where

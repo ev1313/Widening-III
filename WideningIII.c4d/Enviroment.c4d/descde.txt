@@ -1,0 +1,3 @@
+Enthält Umweltobjekte und Effekte.
+
+2011 MS- Clonk Entwicklung

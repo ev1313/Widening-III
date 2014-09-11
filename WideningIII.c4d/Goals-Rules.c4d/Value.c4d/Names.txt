@@ -1,0 +1,2 @@
+DE:Siedlungspunkte 50000			
+US:Settlement points 50000

@@ -1,0 +1,7 @@
+Drehbar, verschießt Löschschaum
+
+
+
+
+Entwicklermodus-Hinweis:
+Durch das Setzen der local type (z.b. type=ROCK) kann die ID der zu verschleudernden Objekte geändert werden. 0 für normalen Schaum.

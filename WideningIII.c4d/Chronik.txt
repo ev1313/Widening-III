@@ -1,0 +1,69 @@
+       ***BITTE ÖFFNEN***
+-----------------------------------
+Chronik der Erweiterungen
+
+letztes Update: 06.07.2014
+
+Version 2.00:		Erste offizielle Version veröffentlicht
+
+Version 2.01: 		Schon kurz nach dem Release aufgetretene Unschönheiten beseitigt.
+			(Fahrzeuge, Gebäudeanpassung, Baumaterialien, Grafik etc.)
+
+Version 2.01b:		Schnelles Hotfix Abrißfunktion, Feuer verändert.
+
+Version 2.02/2.02 SE:	Neu: Grafik Bergarbeiter, zahlreiche Bugfixes.
+
+Version 2.03: 		Div. Grafiken und Bugfixes siehe Bugtracker
+
+Version 2.04:		Szenarien entfernt, um Speicherplatz du sparen
+
+Version 2.05 SR1:	Enthält das neue experimentelle Fahrmodell, weniger Fahrzeuge und div. Bugfixes
+
+Version 2.05 SR2:	Hotfix bzw. Anpassung Bergarbeiter
+
+Version 2.05 SR4:	Feuerwehr wurde aus der Bestelloption ausgelagtert und dafür leichter herstellbar gemacht.
+
+Version 2.06:		Neues Windkraftwerk, Balancing im Energiemanagement und beim Feuer, div. Fixes
+
+Version 2.07:		Anscheinend löste das letzte CR Update Fehler beim neuen Autoscript aus und zwang uns dazu sie zurückzusetzen.
+
+Version 2.08/b/c:	Torpedos funzen nun mit Gecko´s Erweitertem U-Boot, Objekte die auf Originalfeatures zugreifen aktualisiert.
+
+Version 2.09:		Ein Blocker verhinderte das Erforschen div. Torpedos. gefixt.
+
+Version 2.10:		Atomkraftwerk überarbeitet.
+
+Version 2.11: 		Bugfix Torpedos.
+
+Version 2.12:		Aus der Erweiterung V1.62 wurden die Ionenflints konvertiert.
+
+Version 2.12b:		Bugfix Ionenflints
+
+Version 2.13:		Balancingkorrekturen und ein paar kleinere Features ;)
+
+Version 2.20:		Großes Update, Raffinerien wurde zusammengefasst und vereinfacht, div. Bugfixes, Feuer und Gifte abgeschwächt.
+
+Version 2.20b:		Feuerwehrauto wieder bestellbar, Ölfässer werden in Raffi entleert und wieder freigesetzt. 
+
+Version 2.21:		Feuerwehrauto aus Bestelloption ausgelagert (Blocker), Raffi-Ausbeute erhöht, Abfälle nicht mehr verkaufbar, Regeration möglich.
+
+Version 2.22:		Elektronik-Wirtschaftszweig entfernt, damit verbundene Stoffe angepasst, Bestellung nun ab sofort möglich, Spritverbräuche korrigiert, Abfallregeneration erweitert
+
+Version 2.22b:		Hotfix der Zünder, Produktion nun im Veredelungswerk.
+
+Version 2.22c:		Zinsen auf eingezahltes Kapital reduziert.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

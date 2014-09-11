@@ -1,0 +1,14 @@
+[DefCore]
+id=DOLL
+Name=Dollars
+Category=1
+Width=25
+Height=25
+Offset=-5,-5
+Mass=1
+Picture=0,0,25,25
+Vertices=1
+VertexFriction=100
+Rotate=1
+TimerCall=Weg
+Timer=30

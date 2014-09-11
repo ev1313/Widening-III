@@ -1,0 +1,20 @@
+[DefCore]
+id=GIF3
+Name=Hydrogen Gas
+Category=8
+Width=62
+Height=60
+Value=1
+Mass=1
+Offset=-31,-30
+Components=GIF3=1;
+Picture=0,0,62,60
+Vertices=1
+VertexFriction=50
+StretchGrowth=1
+
+TimerCall=Activity
+
+[Physical]
+Float=100
+ 

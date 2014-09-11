@@ -1,0 +1,4 @@
+Erzeugt aus Erz und Brennmaterial verschiedene Metalle und überläd den Originalhochofen.
+
+Je nach Verfahren entstehen so normales Metall, Kupfer, Chrom oder Aluminium.
+

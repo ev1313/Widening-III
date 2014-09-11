@@ -1,0 +1,8 @@
+Mit einem Feuerwehrauto können in Brand geratene Objekte schnell und effizient gelöscht werden.
+
+Steuerung der Löschkanone:
+1.Anhalten (der Wagen muss stehen).
+2.Oben-Taste betätigen, die Löschkanone wird aktiviert.
+3.Rotieren mit Links oder Rechts, Anhalten mit oben, Feuer mit Graben.
+4.Abschalten der Kanone und Normalbetrieb der Steuerung mit UNTEN.
+

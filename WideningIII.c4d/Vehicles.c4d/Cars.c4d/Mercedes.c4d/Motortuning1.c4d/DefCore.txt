@@ -1,0 +1,19 @@
+[DefCore]
+id=MTP1
+Version=4,6,0
+Name=Motortuningpack Stufe 1
+Category=3600
+MaxUserSelect=15
+Width=9
+Height=13
+Offset=-5,-7
+Value=50
+Mass=75
+Components=ALU1=3;METL=3
+Picture=9,0,40,45
+Vertices=1
+VertexY=6
+VertexFriction=100
+Rebuy=1
+Collectible=1
+TimerCall=Where

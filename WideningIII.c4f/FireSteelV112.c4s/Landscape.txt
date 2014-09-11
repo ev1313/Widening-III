@@ -1,0 +1,81 @@
+/*Der Schacht*/
+
+map TheShaft {
+ //Ascheboden
+ overlay Ground { mat=Ashes; tex=Rock; sub=1; x=-20; y=30; wdt=140; hgt=90; algo=sin; zoomX=+95; zoomY=+88; turbulence=10; loosebounds=1;
+
+  //Verschiedene Texturen
+  overlay Patches { mat=Earth; tex=Smooth; sub=1; x=-20; y=0; wdt=140; hgt=120; algo=rndchecker; turbulence=2000;};
+  Patches { tex=Rough; };
+
+  //Zufällige Felsen in der Erde
+
+  //Patches mit Patches drin (Schwefel und Kohleablagerungen)
+  Patches { mat=Earth; tex=Smooth; y=5; hgt=10; loosebounds=1;
+   Patches { mat=Sulphur; tex=Swirl; loosebounds=1;};
+   Patches { mat=Ashes; tex=Smooth;};
+  };
+  Patches { mat=Earth; tex=Smooth; y=10; hgt=15; loosebounds=1;
+   Patches { mat=Coal; loosebounds=1;};
+   Patches { mat=Ashes; tex=Smooth;};
+  };
+  Patches { mat=Earth; tex=Smooth; y=20; hgt=10; loosebounds=1;
+   Patches { mat=Sulphur; tex=Swirl; loosebounds=1;};
+   Patches { mat=Ashes; tex=Smooth;};
+  };
+  Patches { mat=Earth; tex=Smooth; y=25; hgt=15; loosebounds=1;
+   Patches { mat=Coal; loosebounds=1;};
+   Patches { mat=Ashes; tex=Smooth;};
+  };
+
+  //Steinboden 
+  overlay UnderGround {mat=Rock; tex=Rock; x=0; y=70; wdt=100; hgt=20; turbulence=10000; loosebounds=1;
+   overlay {mat=Granite; tex=Rock; x=0; y=60; wdt=100; hgt=70; turbulence=200; loosebounds=1;};
+   Patches {mat=Gold; tex=Rough;};
+   Patches {mat=Rock; tex=Rough;};
+  };
+
+  //nach oben reichende Erzadern und Goldflecken
+  overlay MoreOre {mat=Ore; tex=Rock; x=0; y=50; wdt=30; hgt=50; algo=lines; a=10; b=50; turbulence=10000; loosebounds=1;
+   Patches {mat=Rock; tex=Rough;};
+  };
+  overlay MoreOre {mat=Ore; tex=Rock; x=70; y=50; wdt=30; hgt=50; algo=lines; a=10; b=50; turbulence=10000; loosebounds=1;
+   Patches {mat=Rock; tex=Rough;};
+  };
+  overlay MoreOre {mat=Ore; tex=Rock; x=0; y=50; wdt=30; hgt=50; algo=lines; a=10; b=50; turbulence=10000; loosebounds=1;
+   Patches {mat=Rock; tex=Rough;};
+  };
+  overlay MoreOre {mat=Ore; tex=Rock; x=70; y=50; wdt=30; hgt=50; algo=lines; a=10; b=50; turbulence=10000; loosebounds=1;
+   Patches {mat=Rock; tex=Rough;};
+  };
+
+  //Grundöl
+  overlay Oil { mat=Oil; tex=Liquid; x=15 - 25; y=50- 70; wdt=7 - 9; hgt=4 - 5; turbulence=400; loosebounds=1;
+//   overlay Border { mat=Earth; tex=Rock; sub=1; x=-20; y=-20; wdt=140; hgt=140; algo = border; a=2; b=2; turbulence=0; loosebounds=1;};
+  };
+  Oil {x=65 - 75;};
+
+  //Der Schacht in dem Mitte
+  overlay Shaft { mat=Tunnel; tex=Smooth; sub=1; x=43; y=-20; wdt=10; hgt=100; turbulence=1000; loosebounds=1;
+   Patches { mat=Tunnel; tex=Rock;};
+   overlay Opening {x=-20; y=-20; wdt=140; hgt=40; turbulence=300; loosebounds=1;};
+   overlay Filled {mat=DuroLava; tex=Liquid; x=-20;y=70;wdt=140;hgt=40; loosebounds=1;};
+   overlay Border { mat=Rock; tex=Rock; sub=1; x=-20; y=0; wdt=140; hgt=100; algo = border; a=0; b=5; turbulence=0; loosebounds=1;};
+  };
+
+  //Seitliche Höhlen
+  overlay Cave {mat=Tunnel; tex=Smooth; x=35; y=20 - 40; wdt=15; hgt=3; turbulence=200; loosebounds=1;
+   Patches { mat=Tunnel; tex=Rock;};
+  };
+  overlay Cave {mat=Tunnel; tex=Smooth; x=35; y=20 - 40; wdt=15; hgt=3; turbulence=200; loosebounds=1;
+   Patches { mat=Tunnel; tex=Rock;};
+  };
+  overlay Cave {mat=Tunnel; tex=Smooth; x=45; y=20 - 40; wdt=15; hgt=3; turbulence=200; loosebounds=1;
+   Patches { mat=Tunnel; tex=Rock;};
+  };
+  overlay Cave {mat=Tunnel; tex=Smooth; x=45; y=20 - 40; wdt=15; hgt=3; turbulence=200; loosebounds=1;
+   Patches { mat=Tunnel; tex=Rock;};
+  };
+
+ };
+};

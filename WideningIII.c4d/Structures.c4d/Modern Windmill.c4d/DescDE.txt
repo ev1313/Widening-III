@@ -1,0 +1,4 @@
+Der moderne Clonk benutzt für die Energiegewinnung selbstverständlich moderne Windkraftwerke, diese sind unempfindlich gegen Feuer und erzeugen mehr Energie für hochentwickelte Gebäude. Zudem sind sie unempfindlich gegen Blitze und somit auch ein guter Schutz vor ungewollten Bränden.
+
+Erzeugt 50% mehr Strom als ein herkömmliches Windrad
+

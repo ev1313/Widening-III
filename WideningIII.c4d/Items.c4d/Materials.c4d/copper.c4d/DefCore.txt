@@ -1,0 +1,21 @@
+[DefCore]
+id=KUPF
+Version=4,6,3
+Name= Kupfer
+Category=2576
+MaxUserSelect=15
+Width=8
+Height=7
+Offset=-4,-3
+Value=6
+Mass=15
+Components=KUPF=1;
+Picture=7,0,114,44
+Vertices=3
+VertexX=-4,3
+VertexY=3,-3
+VertexFriction=50,50,50
+Rebuy=1
+Collectible=1
+Rotate=1
+ 

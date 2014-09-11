@@ -1,0 +1,1 @@
+Mit diesem Objekt können maximal 50000 Siedlungspunkte als Spielziel eingestellt werden.

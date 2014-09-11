@@ -1,0 +1,3 @@
+Turns ore and firing fuel into metals.
+
+Can produce copper, chrome, steel, aluminium or regular generic metal.

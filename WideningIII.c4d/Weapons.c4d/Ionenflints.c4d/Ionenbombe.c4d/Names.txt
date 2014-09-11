@@ -1,0 +1,2 @@
+DE:Ionenbombe
+US:Ionic bomb

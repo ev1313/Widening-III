@@ -1,0 +1,23 @@
+[DefCore]
+id=HLWB
+Version=4,9,5
+Name=Verbranntes Windkraftwerk
+Category=2
+Width=26
+Height=58
+Offset=-13,-29
+Value=10
+Mass=500
+Components=METL=5;ALU1=5;KUPF=5;
+Picture=0,0,26,58
+Vertices=5
+VertexX=-10,9,-13,12,-1
+VertexY=-28,-28,28,28,-27
+VertexFriction=50,50,100,100
+BlastIncinerate=90
+Construction=1
+ConstructTo=HLWK
+Grab=1
+Rotate=1
+ColorByOwner=1
+ 

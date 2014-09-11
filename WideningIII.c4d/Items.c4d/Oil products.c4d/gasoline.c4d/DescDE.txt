@@ -1,0 +1,2 @@
+Enthält einfaches Normalbenzin.
+Da kein modernes Auto in der Erweiterung diesen Sprit verträgt, muss er zu hochwertigen Benzinen veredelt werden.
