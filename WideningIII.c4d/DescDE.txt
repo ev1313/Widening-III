@@ -1,8 +1,8 @@
-Die Erweiterung Wirtschaft II vereint klassische Tugenden des Vorgängers mit aktuellen Spielelementen.
+Die Erweiterung Wirtschaft III vereint klassische Tugenden des Vorgängers mit aktuellen Spielelementen.
 Es hat sich technisch viel getan, die Spielbarkeit hat sich verbessert und zahlreiche traditionelle Bugs wurden behoben. Zudem wurden vielerlei neue Grafiken integriert, somit kommt auch das Auge nicht zu kurz. 
 Am Prinzip hat sich nichts geändert, weiterhin verwöhnen zahlreiche Objekte, Produkte, Chemikalien und Technologien das Spielerherz mit einer nahezu unbegrenzten Vielfalt an Möglichkeiten, um zu angemessenem Wohlstand zu kommen.
 
-Wir wünschen Viel Spaß beim Entdecken der neuen Erweiterung Wirtschaft II
+Wir wünschen Viel Spaß beim Entdecken der neuen Erweiterung Wirtschaft III
 
 Im Entwicklermodus sind folgende Dokumentationen einsehbar:
 -->Hilfedatei
@@ -16,9 +16,9 @@ Um das Paket optimal nutzen zu können, sollten Sie wenigstens folgendes System b
 256 MB RAM 
 16MB 3D Grafikkarte
 
-Paket-Version: 2.22c
+Paket-Version: 3.00.00
 Freigabe für:
-CR 4.98.5
+CR 4.9.10.7
 
 2014 MS Clonk-Entwicklung
 

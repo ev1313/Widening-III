@@ -2,10 +2,10 @@
 -----------------------------------
   WICHTIGE INFORMATIONEN
  
-Die Erweiterung Wirtschaft II Szenarien sind Original MS C-E Objekte 
-und kompatibel mit der jeweils aktuellsten Version der Erweiterung Wirtschaft II.
+Die Erweiterung Wirtschaft III Szenarien sind Original MS C-E Objekte 
+und kompatibel mit der jeweils aktuellsten Version der Erweiterung Wirtschaft III.
 
-Jede offizielle Engine ab CR 4.98.2 wird unterstützt. 
+Jede offizielle Engine ab CR 4.9.10.7 wird unterstützt. 
 Die Nutzung mit einer unzulässigen Engine erfolgt auf eigene Gefahr.
 
 Falls MS C-E Objekte für eigene Pakete verwendet werden sollen, ist das kein Problem.

@@ -1,10 +1,7 @@
        ***ehem. und aktive MS C-E Mitarbeiter***
 --------------------------------------
 
-
-MSC		--> Teamleitung
-James		--> 3D Grafik
-VK		--> Script + Technik
-Foga		--> 3D Grafik
-
-
+End       --> Teamleitung
+Thrawn  --> Mapper
+Nepto    --> Sounddesign
+MSC		--> Betatester/Ideengeber/Ex-Teamleitung
