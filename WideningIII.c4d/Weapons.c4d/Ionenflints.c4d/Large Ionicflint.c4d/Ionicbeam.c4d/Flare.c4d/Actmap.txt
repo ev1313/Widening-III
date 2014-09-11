@@ -1,8 +1,0 @@
-[Action]
-Name=Start
-NextAction=Start
-Length=15
-Delay=5
-Facet=0,0,10,32
-EndCall=End
-

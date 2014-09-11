@@ -1,7 +1,0 @@
-[Action]
-Name=Fly
-Procedure=NONE
-NextAction=Fly
-Delay=1
-Facet=0,0,3,3
-StartCall=Chck4Boom
