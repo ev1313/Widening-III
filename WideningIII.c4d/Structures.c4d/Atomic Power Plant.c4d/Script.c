@@ -1,51 +1,58 @@
 /*-- Kraftwerk --*/
 
-/* Fundament (Local 9) */
+#include BAS4
 
-#strict
-
-protected Construction:
-  SetLocal(9,CreateObject(BAS4,+1,+8));
-  return(1);
+#strict 2
   
-protected Destruction:
-  if (Local(9)) RemoveObject(Local(9));
-  return(1);
-
 /* Initialisierung */
 
-protected Initialize:
+protected func Initialize()
+{
   // Netterweise gibt's zu Beginn einmal Plutonium
   CreateContents(PLUT);
   return(1);
+}
 
 /* Eingangssteuerung */
 
-protected ActivateEntrance: 
-  if (ActIdle()) SetAction("OpenDoor");
+protected func ActivateEntrance()
+{
+  if (ActIdle()) 
+    SetAction("OpenDoor");
   return(1);
+}
   
-private OpenEntrance:
+private func OpenEntrance()
+{
   SetEntrance(1);
   return(1);
+}
 
-private CloseEntrance:
+private func CloseEntrance()
+{
   SetEntrance(0);
   return(1);
+}
 
-private SoundOpenDoor:
+private func SoundOpenDoor()
+{
   return(Sound("GateOpen"));
-
-private SoundCloseDoor:
-  return(Sound("GateClose"));
+}
   
-protected Collection:
+private func SoundCloseDoor()
+{
+  return(Sound("GateClose"));
+}
+  
+protected func Collection()
+{
   return(Sound("Clonk"));
-
+}
 
 /* Produktion */
 
-private Burning:
+private func Burning()
+{
   // Rauch
   Smoke(-15,-20,3);
   Smoke(-1,-23,1);
@@ -56,11 +63,12 @@ private Burning:
   // Fertig
   SetAction("Idle");
   return(1);
-
+}
 
 /* Inhaltsüberprüfung */
 
-private ContentsCheck:
+private func ContentsCheck()
+{
   // Noch aktiv
   if (Not(ActIdle())) return(1);
   // Loren ausleeren und rausschicken
@@ -82,22 +90,22 @@ private ContentsCheck:
   // Heizöl verbrennen
   if (GreaterThan(ContentsCount(PLU2),0))
     return(BurnOil2());
+}
 
-
-private BurnOil:
-  SetVar(0,FindContents(PLUT));
+private func BurnOil()
+{
+  if(!SetVar(0,FindContents(PLUT))) return;
   ChangeDef(ATOM,Var(0));
   SetAction("Burning");
   return(1);
-
-private BurnOil2:
-  if (Not(SetVar(0,FindContents(PLU2)))) return(0);
+}
+  
+private func BurnOil2()
+{
+  if (!SetVar(0,FindContents(PLU2))) return;
   ChangeDef(ATOM,Var(0));
   SetAction("Burning");
   return(1);
+}
 
-
-
-
-
-public GetResearchBase: return(POWR);
+public GetResearchBase() { return(POWR); }

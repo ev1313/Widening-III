@@ -1,20 +1,18 @@
 /*-- Torpedo --*/
 
-#strict
-
-Initialize:
-  DoScore(0, -5);
-  return(1);
+#strict 2
 
 /* Initialisierung */
 
-protected func Initialize() {
+protected func Initialize() 
+{
   DoScore(0, 500);	
   SetAction("Walk");
   SetComDir(COMD_Stop());
 }
 
-public func Launch (object by) {
+public func Launch (object by) 
+{
   SetAction ("Swim");
   SetDir(GetDir(by));
   SetXDir(GetXDir(by));
@@ -26,13 +24,15 @@ public func Launch (object by) {
 
 /* Einsammeln */
 
-func Entrance (object container) {
+func Entrance(object container) 
+{
   SetAction("Walk");
 }
 
 /* Effekte */
 
-private func Swimming() {
+private func Swimming() 
+{
   var iDir=(GetDir()*2-1);
   Bubble(-16*iDir,0);
   Bubble(-16*iDir,0);
@@ -41,23 +41,23 @@ private func Swimming() {
 
 /* Aufschlag */
 
-public Hit:
+public func Hit()
+{
   Sound("HEADCRAS");	
   CreateObject(ABEX);
   RemoveObject();
   return(1);
-  
-
+  }
 
 /* Produkteigenschaften */
 
-public IsChemicalProduct: return(1);
+public func IsChemicalProduct() { return(1); }
 
 /* Status */
 
-public IsTorpedo: return(1);
+public func IsTorpedo() { return(1); }
 
 /* Forschung */
 
-public GetResearchBase: return(TRP2);
+public func GetResearchBase() { return(TRP2); }
 
