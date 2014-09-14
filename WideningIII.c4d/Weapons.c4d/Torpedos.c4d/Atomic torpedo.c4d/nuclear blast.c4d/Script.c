@@ -1,18 +1,20 @@
-// MSC-Script //
-#strict
+#strict 2
 
-privat erstelle_druckwelle:
+private func erstelle_druckwelle()
+{
 	ObjectCall(CreateObject(ABDW,0,0,-1),"nach_rechts");
 	ObjectCall(CreateObject(ABDW,0,0,-1),"nach_links");
 	return(1);
+}
 
-
-protected Initialize:
+protected func Initialize()
+{
 	Hit();
 	return(1);
-
+}
+	
 protected func earthquake_deluxe()
-  {
+{ 
   if (Random(2)) return(1);
 
   ShakeObjects(GetX(),GetY(),1000);
@@ -25,17 +27,15 @@ protected func earthquake_deluxe()
 
   while (++i<amount) ShakeFree(x+=step_x,y+=step_y,Random(15));
   return(1);
-	}
+}
 
-protected Hit:
-	CreateObject(ABPZ,0,0,-1);
-	LaunchEarthquake(0,0);
-             earthquake_deluxe();
-	RemoveObject();
-	return(1);
+protected func Hit()
+{
+  CreateObject(ABPZ,0,0,-1);
+  LaunchEarthquake(0,0);
+  earthquake_deluxe();
+  RemoveObject();
+  return(1);
+} 
 
-
-
-
-
-nicht_markieren: return(1);
+public func nicht_markieren() { return(1); }

@@ -108,4 +108,4 @@ private func BurnOil2()
   return(1);
 }
 
-public GetResearchBase() { return(POWR); }
+public func GetResearchBase() { return(POWR); }

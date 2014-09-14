@@ -6,9 +6,8 @@
 
 protected func Initialize() 
 {
-  DoScore(0, 500);	
   SetAction("Walk");
-  SetComDir(COMD_Stop());
+  SetComDir(COMD_Stop);
 }
 
 public func Launch (object by) 
@@ -17,8 +16,8 @@ public func Launch (object by)
   SetDir(GetDir(by));
   SetXDir(GetXDir(by));
   SetYDir(0);
-  if (GetDir()==DIR_Right()) SetComDir(COMD_Right());
-  if (GetDir()==DIR_Left()) SetComDir(COMD_Left());
+  if (GetDir()==DIR_Right) SetComDir(COMD_Right);
+  if (GetDir()==DIR_Left) SetComDir(COMD_Left);
   return(1);
 }
 
