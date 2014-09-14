@@ -1,2 +1,0 @@
-TxtControl=Control
-TxtLorryisfull=Lorry is full!
