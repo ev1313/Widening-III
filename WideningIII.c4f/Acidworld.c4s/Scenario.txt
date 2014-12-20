@@ -6,7 +6,7 @@ Access=1
 
 [Definitions]
 Definition1=Objects.c4d
-Definition2=WideningIII.c4d
+Definition2=Widening-III/WideningIII.c4d
 
 [Game]
 StructNeedEnergy=0

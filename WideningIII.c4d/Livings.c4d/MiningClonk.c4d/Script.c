@@ -218,7 +218,7 @@ func Shop(i,mode) //Einkaufen
 
 }
 
-func Add(id,number)
+func Add(iID,number)
 {
  //Verfügbarer Platz
  var room = best -> Room();
@@ -226,22 +226,24 @@ func Add(id,number)
  //Anzahl noch nicht festgelegt
  if(!number)
  {
-  CreateMenu(GetID(),clonk,this());
-  if(room) AddMenuItem("1","Add",id,clonk,0,1);
-  if(room >= 5) AddMenuItem("5","Add",id,clonk,0,5);
-  if(room >= 10) AddMenuItem("10","Add",id,clonk,0,10);
-  return(1);
+    CreateMenu(GetID(),clonk,this());
+    if(room) AddMenuItem("1","Add",iID,clonk,0,1);
+    if(room >= 5) AddMenuItem("5","Add",iID,clonk,0,5);
+    if(room >= 10) AddMenuItem("10","Add",iID,clonk,0,10);
+    return(1);
  }
 
- if(number <= 10) while(number--) best -> CreateContents(id);
+ if(number <= 10) 
+   while(number--) 
+     best->CreateContents(iID);
 
  //Objekt löschen
  if(number==11)
  {
-  RemoveObject(FindContents(id,best)); 
-  //Zurück zum Menü
-  Shop(GetID(),5);
-  return(1);
+    RemoveObject(FindContents(iID,best)); 
+    //Zurück zum Menü
+    Shop(GetID(),5);
+    return(1);
  }
 
  //Zurück zum Menü
