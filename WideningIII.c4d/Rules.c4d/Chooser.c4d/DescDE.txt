@@ -1,0 +1,1 @@
+Diese Regel erlaubt es dem Host, die Regeln und Spielziele bei Spielstart einzustellen.

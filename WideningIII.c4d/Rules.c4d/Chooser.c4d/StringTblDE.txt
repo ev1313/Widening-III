@@ -1,0 +1,8 @@
+More=Mehr
+Less=Weniger
+NoGoals=Keine einstellbaren Ziele
+Finish=Fertig
+Goals=Spielziele
+Settings=Einstellungen
+StartSettings=%s stellt erstmal alles ein...
+FinishSettings=%s hat jetzt fertig eingestellt.

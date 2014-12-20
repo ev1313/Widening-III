@@ -1,0 +1,8 @@
+More=More
+Less=Less
+NoGoals=No Goals
+Finish=Finish
+Goals=Goals
+Settings=Settings
+StartSettings=%s is setting up the game...
+FinishSettings=%s has finished with setting up the game.

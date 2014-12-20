@@ -1,0 +1,1 @@
+This rule allows the host choosing the goal and rules at gamestart.
