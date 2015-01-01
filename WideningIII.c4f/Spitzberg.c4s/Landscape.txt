@@ -1,0 +1,38 @@
+/* Spitzberg */  
+
+//Meine erste dynamische Map yay! Kein Beispiel, aber funzt...   
+overlay MainMat {x=1; y=-50; wdt=100; hgt=100;}; 
+overlay Mat { algo=rndchecker; a=21; turbulence=100; 
+zoomX=-99; zoomY=-99; }; 
+
+ map Globe { 
+   MainMat { mat=Earth; tex=Rough; x=0; y=50;
+   wdt=100; hgt=100;};
+MainMat { mat=Earth; tex=Smooth; x=0; y=50; wdt=100; hgt=100; };
+       Mat { mat=Ore; tex=Rough; x=0; y=59;  };
+             Mat { mat=Granite; tex=Rock; x=0; y=53; };
+             Mat { mat=Water; tex=Smooth; x=0; y=65; };
+             Mat { mat=Gold; tex=Rough; x=0; y=74; };
+             Mat { mat=Coal; tex=Swirl; x=0; y=63; };
+             Mat { mat=Rock; tex=Rough; a=17; x=0; y=53; };
+             Mat { mat=Oil; tex=Smooth; x=0; y=86; };	 
+
+//Noch schnell das Schwimmbad einrichten!               
+overlay { mat=Durolava; tex=Liquid; x=35; y=59; wdt=30; hgt=5; turbulence=100; a=4; algo=solid; loosebounds=3; };    
+overlay { mat=Tunnel; tex=Rough; x=35; y=56; wdt=36; hgt=5; }; 
+overlay { mat=Ashes; tex=Rough; x=35; y=67; wdt=30; hgt=50; algo=lines; a=4; b=20; turbulence=30; zoomX=-60; zoomY=-49; };                                  	    
+//Es folgt der Berg  
+overlay MainMat { mat=Earth; tex=Rough; algo=poly; turbulence=90; a=3; b=40;
+Mat { mat=Gold; tex=Rock; };
+ point { x=50px; y=60%; };      
+ point { x=70px; y=55%; };      
+ point { x=50px; y=59%; };      
+ point { x=90px; y=25%; };      
+ point { x=110px; y=59%; };
+
+//Aber Berge aus Erde sind blöd \o/    
+overlay Mat { mat=Gold; tex=Rough; x=47; y=35;turbulence=300; wdt=20; hgt=10; a=3; b=5; algo=bozo; zoomX=-30; zoomY=-40; }; 
+overlay Mat { mat=tunnel; tex=Rough; x=0; y=47; turbulence=30; wdt=100; hgt=3; lambda=3; 
+algo=rndchecker; zoomX=30; zoomY=50;  };        
+   };  
+ };
