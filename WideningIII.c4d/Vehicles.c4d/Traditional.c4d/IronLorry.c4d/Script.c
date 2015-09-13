@@ -93,7 +93,7 @@ protected func RejectCollect(id idObj,object pObj)
 protected func Entrance(object pNewContainer)
 {
   // Nur in Gebäuden (auch Burgteile)
-  if (GetCategory(pNewContainer) & (C4D_StaticBack | C4D_Structure))
+  if(pNewContainer->~IsCarProduct() || (GetCategory(pNewContainer) & (C4D_StaticBack | C4D_Structure)))
     // Nicht, wenn es das Gebäude verbietet
     if (!pNewContainer->~NoLorryEjection(this()) && !pNewContainer->~IsStaircase())
     {
